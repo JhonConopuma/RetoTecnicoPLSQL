@@ -1,0 +1,28 @@
+--------------------------------------------------------
+-- Archivo creado  - lunes-abril-15-2024   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table PRODUCTO
+--------------------------------------------------------
+
+  CREATE TABLE "MARCO"."PRODUCTO" 
+   (	"IDPRODUCTO" NUMBER, 
+	"NOMBRE" VARCHAR2(100 BYTE), 
+	"FECREGISTRO" DATE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into MARCO.PRODUCTO
+SET DEFINE OFF;
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('1','MONITOR',to_date('12/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('2','TECLADO',to_date('12/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('3','MOUSE',to_date('12/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('4','AUDIFONO',to_date('12/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('5','CPU',to_date('12/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('6','maleta',to_date('14/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('7','CELULAR',to_date('14/04/24','DD/MM/RR'));
+Insert into MARCO.PRODUCTO (IDPRODUCTO,NOMBRE,FECREGISTRO) values ('8','CAMARA WEB',to_date('14/04/24','DD/MM/RR'));
